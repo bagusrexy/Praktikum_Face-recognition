@@ -1,0 +1,11 @@
+1. test your webcam by running "TestingCamera.py"
+2. if you want to play w/ the detector on your webcam, run "FaceSmileEyeDetection.py"
+3. before recognizing, the camera needs some data
+	so, run "DataCollector.py"
+	input your id
+	then look at the webcam for a while 'til the data/your gray picture's are collected
+4. then, you need to train those data so the webcam can recognize your face
+	run "DataTrainer.py", check for .yml file inside trainer folder
+5. lastly, w/ that trained data (trainer.yml), your webcam can recognize your face
+	so, run the "Recognizer.py"
+	then look move your face toward the webcam at certain distance
